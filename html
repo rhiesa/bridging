@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>Length Calculation App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <h2>Length Calculation App</h2>
+        <label for="length">Length (in inches):</label>
+        <input type="number" id="length" name="length" required min="0">
+
+        <label for="stockLength">Stock Length (in inches):</label>
+        <input type="number" id="stockLength" name="stockLength" required min="0">
+
+        <button onclick="calculate()">Calculate</button>
+
+        <p id="result"></p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
